@@ -11,9 +11,8 @@ def collatz(num):
     return count
 
 def main():
-    n = input("Enter num: ")
-    s = int(n)
-    print("You need",collatz(s),"steps")
+    n = int(input("Enter num: "))
+    print("You need",collatz(n),"steps")
 
 if __name__ == "__main__":
     main()
